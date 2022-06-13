@@ -1,11 +1,10 @@
-pipeline {
-    agent any
+public class Test {
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
+	public static void main(String[] args) {
+	
+		
+		System.out.println("Hello world in java");
+		System.out.println("Hello kaps");
+	}
+
 }
