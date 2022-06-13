@@ -1,0 +1,112 @@
+
+{
+    "tenantID": "KPDEMOV6",
+    "profileDetails": [
+        {
+            "primaryId": "rahul.patil12",
+            "primaryIdAttribute": "userName",
+            "status": true,
+            "externalId": {
+                "source": "OIM"
+            },
+            "displayName": "Rahul",
+            "userName": "rahul.patil12",
+            "personId": "rahulpatil20",
+            "fqdn": "OIM123",
+            "employeeId": "112429",
+            "emails": [
+                {
+                    "value": "rahul.p@kapstonellc.com",
+                    "verified": true,
+                    "primary": false,
+                    "type": "recovery"
+                },
+                {
+                    "value": "rahul.patil@kapstonellc.com",
+                    "verified": true,
+                    "primary": true,
+                    "type": "work"
+                }
+            ],
+            "userDetails": {
+                "firstName": "Roy"
+            },
+            "profile": {
+                "manager": {
+                    "displayName": "Srinivas Addala",
+                    "externalId": "SADDALA",
+					"source" : ""
+                    "userName": "ASRO@kapstonellc.com"
+                },
+                "securityCredentials": [
+                    {
+                        "question": "",
+                        "answer": "",
+                        "salt": ""
+                    },
+                    {
+                        "question": "",
+                        "answer": "",
+                        "salt": ""
+                    }
+                ],
+                "directReportees": [
+                    {
+                        "displayName": "",
+                        "id": "",
+                        "ref": "",
+                        "userName": ""
+                    },
+                    {
+                        "displayName": "",
+                        "id": "",
+                        "ref": "",
+                        "userName": ""
+                    }
+                ]
+            },
+            "applicationDetails": [
+                {
+                    "defaultOwner": "",
+                    "defaultOwnerUserAttribute": "",
+                    "application": "ActiveDirectory",
+                    "itemType": "Application",
+                    "itemRisk": "low",
+                    "source": "OIM",
+                    "accountId": "myADUser2",
+                    "accountType": "primary",
+                    "lastLogin": "07/24/2020",
+                    "accountProfile": {
+                        "personId": "mypersonid2"
+                    },
+                    "entitlements": [
+                        {
+                            "name": "BBB-Wireless-HCWorkForce-G",
+                            "type": "groups",
+                            "source": "OIM",
+                            "itemType": "Entitlement",
+                            "application": "ActiveDirectory",
+                            "itemRisk": "high",
+                            "accessProfile": {
+                                "startdate": "",
+                                "endDate": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "enterpriseRole": [
+                {
+                    "name": "AllUsers",
+                    "description": "AllUsers",
+                    "source": "OIM",
+                    "roleProfile": {
+                        "grant": "fullTime"
+                    }
+                }
+            ]
+        }
+    ]
+}
+ConnectorResponseBodyExpectedToIV (1).json
+Displaying ConnectorResponseBodyExpectedToIV (1).json.
