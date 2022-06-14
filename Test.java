@@ -5,7 +5,7 @@ public class Test {
 	
 		
 		System.out.println("Hello world in java");
-		System.out.println("Hello kapstone");
+		System.out.println("Hello kaps team");
 	}
 
 }
