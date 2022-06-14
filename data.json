@@ -1,6 +1,11 @@
-{
-  int i = 0
-  println i
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
 }
-int i = 10
-println i
