@@ -1,16 +1,6 @@
 {
-   "book":[
-      {
-         "id":"444",
-         "language":"C",
-         "edition":"First",
-         "author":"Dennis Ritchie "
-      },
-      {
-         "id":"555",
-         "language":"C++",
-         "edition":"second",
-         "author":" Bjarne Stroustrup "
-      }
-   ]
-}  
+  int i = 0
+  println i
+}
+int i = 10
+println i
